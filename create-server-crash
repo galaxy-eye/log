@@ -1,0 +1,1222 @@
+C:\Users\admin\Desktop\mcserver>java -Xms6G -Xmx6G -jar fabric-server-mc.1.19.2-loader.0.14.15-launcher.0.11.2.jar nogui
+Starting net.fabricmc.loader.impl.game.minecraft.BundlerClassPathCapture
+[23:57:35] [main/INFO]: Loading Minecraft 1.19.2 with Fabric Loader 0.14.15
+[23:57:35] [ForkJoinPool-1-worker-8/WARN]: The mod "dungeons_arise" contains invalid entries in its mod json:
+- Unsupported root entry "credits" at line 12 column 12
+[23:57:35] [ForkJoinPool-1-worker-7/WARN]: Mod create uses the version 0.5.0.i-961+1.19.2 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'i'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[23:57:35] [ForkJoinPool-1-worker-10/WARN]: Mod structory uses the version 1.3.1a which isn't compatible with Loader's extended semantic version format (Could not parse version number component '1a'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[23:57:35] [ForkJoinPool-1-worker-1/WARN]: Mod flywheel uses the version 0.6.8.a-4 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'a'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[23:57:35] [main/INFO]: Loading 169 mods:
+        ─ animal_feeding_trough 1.0.3+1.19.2
+        ─ appleskin 2.4.1+mc1.19
+        ─ architectury 6.5.69
+        ─ artifacts 7.1.1+fabric
+           ├── expandability 6.0.0
+           └── step-height-entity-attribute 1.0.0
+        ─ attributefix 17.2.6
+        ─ balm-fabric 4.5.7
+        ─ bettercombat 1.6.2+1.19
+        ─ betterdeserttemples 1.19.2-Fabric-2.2.2
+           └── org_reflections_reflections 0.10.2
+        ─ betterdungeons 1.19.2-Fabric-3.2.1
+        ─ bettermineshafts 1.19.2-Fabric-3.2.0
+        ─ betteroceanmonuments 1.19.2-Fabric-2.1.0
+        ─ betterstrongholds 1.19.2-Fabric-3.2.0
+        ─ betterwitchhuts 1.19.2-Fabric-2.1.0
+        ─ boatcontainer 1.2.4
+        ─ byg 2.0.1.1
+           ├── com_electronwill_night-config_core 3.6.6
+           └── com_electronwill_night-config_toml 3.6.6
+        ─ cardinal-components 5.0.2
+           ├── cardinal-components-base 5.0.2
+           ├── cardinal-components-block 5.0.2
+           ├── cardinal-components-chunk 5.0.2
+           ├── cardinal-components-entity 5.0.2
+           ├── cardinal-components-item 5.0.2
+           ├── cardinal-components-level 5.0.2
+           ├── cardinal-components-scoreboard 5.0.2
+           └── cardinal-components-world 5.0.2
+        ─ charmofundying 6.1.1+1.19.2
+        ─ chefsdelight 1.0.2-fabric-1.19.2
+           └── structurized-reborn 1.19-01
+        ─ cloth-config 8.2.88
+           └── cloth-basic-math 0.6.1
+        ─ clumps 9.0.0+14
+        ─ completeconfig 2.1.0
+           ├── coat 1.0.0-beta.19+mc22w17a
+           ├── completeconfig-base 2.1.0
+           ├── completeconfig-gui-cloth 2.1.0
+           ├── completeconfig-gui-coat 2.1.0
+           └── completeconfig-gui-yacl 2.1.0
+        ─ configured 2.0.0
+        ─ corgilib 1.0.0.32
+        ─ create 0.5.0.i-961+1.19.2
+           ├── com_google_code_findbugs_jsr305 3.0.2
+           ├── flywheel 0.6.8.a-4
+           ├── milk 1.0.51
+           │   └── dripstone_fluid_lib 2.0.1
+           ├── porting_lib 2.1.784+1.19.2
+           │   ├── forge_tags 3.0
+           │   ├── mm 2.3
+           │   ├── porting_lib_accessors 2.1.784+1.19.2
+           │   ├── porting_lib_attributes 2.1.784+1.19.2
+           │   ├── porting_lib_base 2.1.784+1.19.2
+           │   ├── porting_lib_common 2.1.784+1.19.2
+           │   ├── porting_lib_constants 2.1.784+1.19.2
+           │   ├── porting_lib_entity 2.1.784+1.19.2
+           │   ├── porting_lib_extensions 2.1.784+1.19.2
+           │   ├── porting_lib_fake_players 2.1.784+1.19.2
+           │   ├── porting_lib_lazy_registration 2.1.784+1.19.2
+           │   ├── porting_lib_model_generators 2.1.784+1.19.2
+           │   ├── porting_lib_model_loader 2.1.784+1.19.2
+           │   ├── porting_lib_models 2.1.784+1.19.2
+           │   ├── porting_lib_networking 2.1.784+1.19.2
+           │   ├── porting_lib_obj_loader 2.1.784+1.19.2
+           │   ├── porting_lib_transfer 2.1.784+1.19.2
+           │   └── serialization_hooks 0.3.26
+           ├── reach-entity-attributes 2.3.0
+           └── registrate-fabric 1.1.50-MC1.19.2
+        ─ creeper_firework 1.4.0
+        ─ diggusmaximus 1.5.8-1.19
+           └── kyrptconfig 1.4.14-1.19
+        ─ dungeons_arise 2.1.54
+        ─ easyanvils 4.0.10
+        ─ easymagic 4.3.3
+        ─ editenchanting 1.1.0
+        ─ elytraslot 6.1.0+1.19.2
+        ─ fabric-api 0.76.0+1.19.2
+           ├── fabric-api-base 0.4.15+8f4e8eb390
+           ├── fabric-api-lookup-api-v1 1.6.14+93d8cb8290
+           ├── fabric-biome-api-v1 9.1.1+16f1e31390
+           ├── fabric-block-api-v1 1.0.2+e415d50e90
+           ├── fabric-blockrenderlayer-v1 1.1.25+cafc6e8e90
+           ├── fabric-client-tags-api-v1 1.0.5+b35fea8390
+           ├── fabric-command-api-v1 1.2.16+f71b366f90
+           ├── fabric-command-api-v2 2.2.1+413cbbc790
+           ├── fabric-commands-v0 0.2.33+df3654b390
+           ├── fabric-containers-v0 0.1.41+df3654b390
+           ├── fabric-content-registries-v0 3.5.2+7c6cd14d90
+           ├── fabric-convention-tags-v1 1.3.0+4bc6e26290
+           ├── fabric-crash-report-info-v1 0.2.8+aeb40ebe90
+           ├── fabric-data-generation-api-v1 5.3.8+413cbbc790
+           ├── fabric-dimensions-v1 2.1.35+0d0f210290
+           ├── fabric-entity-events-v1 1.5.4+9244241690
+           ├── fabric-events-interaction-v0 0.4.34+562bff6e90
+           ├── fabric-events-lifecycle-v0 0.2.36+df3654b390
+           ├── fabric-game-rule-api-v1 1.0.24+b6b6abb490
+           ├── fabric-item-api-v1 1.6.6+b7d1888890
+           ├── fabric-item-groups-v0 0.3.39+9244241690
+           ├── fabric-key-binding-api-v1 1.0.25+5c4fce2890
+           ├── fabric-keybindings-v0 0.2.23+df3654b390
+           ├── fabric-lifecycle-events-v1 2.2.4+1b46dc7890
+           ├── fabric-loot-api-v2 1.1.13+83a8659290
+           ├── fabric-loot-tables-v1 1.1.16+9e7660c690
+           ├── fabric-message-api-v1 5.0.7+93d8cb8290
+           ├── fabric-mining-level-api-v1 2.1.24+33fbc73890
+           ├── fabric-models-v0 0.3.21+c6af733c90
+           ├── fabric-networking-api-v1 1.2.11+10eb22f490
+           ├── fabric-networking-v0 0.3.28+df3654b390
+           ├── fabric-object-builder-api-v1 4.2.2+d8ef690890
+           ├── fabric-particles-v1 1.0.14+4d0d570390
+           ├── fabric-recipe-api-v1 1.0.1+413cbbc790
+           ├── fabric-registry-sync-v0 0.9.32+9244241690
+           ├── fabric-renderer-api-v1 1.2.1+1adbf27790
+           ├── fabric-renderer-indigo 0.8.0+1adbf27790
+           ├── fabric-renderer-registries-v1 3.2.24+df3654b390
+           ├── fabric-rendering-data-attachment-v1 0.3.19+6e0787e690
+           ├── fabric-rendering-fluids-v1 3.0.11+4d0d570390
+           ├── fabric-rendering-v0 1.1.27+df3654b390
+           ├── fabric-rendering-v1 1.12.1+d8ef690890
+           ├── fabric-resource-conditions-api-v1 2.1.2+aae9039d90
+           ├── fabric-resource-loader-v0 0.8.4+edbdcddb90
+           ├── fabric-screen-api-v1 1.0.32+4d0d570390
+           ├── fabric-screen-handler-api-v1 1.3.7+1cc24b1b90
+           ├── fabric-sound-api-v1 1.0.2+c4f28df590
+           ├── fabric-textures-v0 1.0.24+aeb40ebe90
+           ├── fabric-transfer-api-v1 2.1.6+413cbbc790
+           └── fabric-transitive-access-wideners-v1 1.3.3+08b73de490
+        ─ fabricloader 0.14.15
+        ─ farmersdelight 1.19.2-1.3.9
+        ─ forgeconfigapiport 4.2.11
+        ─ geckolib3 3.1.40
+           └── com_eliotlash_mclib_mclib 20
+        ─ geode 1.1.8
+           └── paragon 3.0.2
+               └── com_moandjiezana_toml_toml4j 0.7.2
+        ─ gobber2 2.6.61
+           ├── pugh_lib 1.4.15
+           └── pugh_tools 1.3.23
+        ─ goblintraders 1.8.1
+        ─ graveyard 2.3
+           └── omega-config 1.2.2-1.18.1
+        ─ imst 2.0.7
+        ─ jade 8.7.3
+        ─ java 17
+        ─ lithium 0.11.1
+        ─ mcpitanlibarch 1.5.7-1.19-fabric
+           └── org_yaml_snakeyaml 2.0
+        ─ minecraft 1.19.2
+        ─ moremobvariants 1.0.1
+        ─ morevillagers 4.0.2
+        ─ player-animator 1.0.2
+        ─ prefab 4.2.4
+        ─ puzzleslib 4.3.12
+           ├── cardinal-components-base 5.0.2
+           ├── cardinal-components-block 5.0.2
+           ├── cardinal-components-chunk 5.0.2
+           ├── cardinal-components-entity 5.0.2
+           └── cardinal-components-world 5.0.2
+        ─ redmorestructure 1.0.6-fabric-1.19.2
+        ─ reinfbarrel 2.3.0+1.19
+           └── reinfcore 3.0.3+1.19
+        ─ reinfchest 2.2.0+1.19
+           └── reinfcore 3.0.3+1.19
+        ─ reinfshulker 2.2.0+1.19
+           └── reinfcore 3.0.3+1.19
+        ─ rottencreatures 1.0.1
+           └── reach-entity-attributes 2.3.0
+        ─ roughlyenoughitems 9.1.595
+           └── error_notifier 1.0.9
+        ─ runes 0.9.6+1.19
+        ─ scout 1.1.2
+        ─ spell_engine 0.9.15+1.19
+           └── com_github_llamalad7_mixinextras 0.1.1
+        ─ spell_power 0.9.8+1.19
+        ─ starlight 1.1.1+fabric.ae22326
+        ─ structory 1.3.1a
+        ─ t_and_t 1.10
+           └── blue_endless_jankson 1.2.1
+        ─ terrablender 2.0.1.136
+        ─ tlc 1.0.0
+        ─ trashslot 12.0.2
+        ─ travelersbackpack 1.19.2-8.2.17
+           └── reach-entity-attributes 2.3.0
+        ─ trinkets 3.4.2
+        ─ uncraftingtable76 1.2.4
+        ─ vinery 1.2.0
+           └── terraform-wood-api-v1 4.2.0
+        ─ waystones 11.3.1
+        ─ wizards 0.9.12+1.19
+        ─ xaerominimap 23.3.2
+        ─ xaeroworldmap 1.29.4
+        ─ yungsapi 1.19.2-Fabric-3.8.9
+           └── org_javassist_javassist 3.28.0-GA
+        ─ yungsbridges 1.19.2-Fabric-3.1.0
+        ─ yungsextras 1.19.2-Fabric-3.1.0
+[23:57:36] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/admin/Desktop/mcserver/libraries/net/fabricmc/sponge-mixin/0.12.3+mixin.0.8.5/sponge-mixin-0.12.3+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
+[23:57:36] [main/INFO]: Compatibility level set to JAVA_17
+[23:57:37] [main/INFO]: Loaded configuration file for Lithium: 114 options available, 0 override(s) found
+[23:57:37] [main/WARN]: Reference map 'morevillagers-fabric-fabric-refmap.json' for morevillagers.mixins.json could not be read. If this is a development environment you can ignore this message
+[23:57:37] [main/WARN]: Reference map 'paragon-fabric-refmap.json' for paragon.mixins.json could not be read. If this is a development environment you can ignore this message
+[23:57:37] [main/WARN]: Reference map 'paragon-common-refmap.json' for paragon-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[23:57:37] [main/WARN]: Reference map 'fabric-the-lost-castle-refmap.json' for tlc.mixins.json could not be read. If this is a development environment you can ignore this message
+[23:57:37] [main/WARN]: Reference map 'yungsextras.refmap.json' for yungsextras.mixins.json could not be read. If this is a development environment you can ignore this message
+[23:57:37] [main/WARN]: Reference map 'yungsextras.refmap.json' for yungsextras_fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[23:57:38] [main/WARN]: Error loading class: io/github/apace100/apoli/power/factory/condition/ConditionFactory (java.lang.ClassNotFoundException: io/github/apace100/apoli/power/factory/condition/ConditionFactory)
+[23:57:38] [main/WARN]: @Mixin target io.github.apace100.apoli.power.factory.condition.ConditionFactory was not found mixins.artifacts.json:compat.origins.ConditionFactoryAccessor from mod artifacts
+[23:57:38] [main/WARN]: Error loading class: net/minecraft/class_5616 (java.lang.ClassNotFoundException: net/minecraft/class_5616)
+[23:57:38] [main/WARN]: @Mixin target net.minecraft.class_5616 was not found registrate-fabric.mixins.json:accessor.BlockEntityRenderersAccessor from mod registrate-fabric
+[23:57:38] [main/ERROR]: Cannot load class satisfyu.vinery.mixin.CreativeInventoryScreenMixin in environment type SERVER
+org.spongepowered.asm.mixin.transformer.throwables.InvalidMixinException: Cannot load class satisfyu.vinery.mixin.CreativeInventoryScreenMixin in environment type SERVER
+        at org.spongepowered.asm.mixin.transformer.MixinInfo.<init>(MixinInfo.java:865) ~[sponge-mixin-0.12.3+mixin.0.8.5.jar:0.12.3+mixin.0.8.5]
+        at org.spongepowered.asm.mixin.transformer.MixinConfig.prepareMixins(MixinConfig.java:852) [sponge-mixin-0.12.3+mixin.0.8.5.jar:0.12.3+mixin.0.8.5]
+        at org.spongepowered.asm.mixin.transformer.MixinConfig.prepare(MixinConfig.java:777) [sponge-mixin-0.12.3+mixin.0.8.5.jar:0.12.3+mixin.0.8.5]
+        at org.spongepowered.asm.mixin.transformer.MixinProcessor.prepareConfigs(MixinProcessor.java:540) [sponge-mixin-0.12.3+mixin.0.8.5.jar:0.12.3+mixin.0.8.5]
+        at org.spongepowered.asm.mixin.transformer.MixinProcessor.select(MixinProcessor.java:462) [sponge-mixin-0.12.3+mixin.0.8.5.jar:0.12.3+mixin.0.8.5]
+        at org.spongepowered.asm.mixin.transformer.MixinProcessor.checkSelect(MixinProcessor.java:438) [sponge-mixin-0.12.3+mixin.0.8.5.jar:0.12.3+mixin.0.8.5]
+        at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:290) [sponge-mixin-0.12.3+mixin.0.8.5.jar:0.12.3+mixin.0.8.5]
+        at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:234) [sponge-mixin-0.12.3+mixin.0.8.5.jar:0.12.3+mixin.0.8.5]
+        at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClassBytes(MixinTransformer.java:202) [sponge-mixin-0.12.3+mixin.0.8.5.jar:0.12.3+mixin.0.8.5]
+        at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPostMixinClassByteArray(KnotClassDelegate.java:422) [fabric-loader-0.14.15.jar:?]
+        at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.tryLoadClass(KnotClassDelegate.java:323) [fabric-loader-0.14.15.jar:?]
+        at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.loadClass(KnotClassDelegate.java:218) [fabric-loader-0.14.15.jar:?]
+        at net.fabricmc.loader.impl.launch.knot.KnotClassLoader.loadClass(KnotClassLoader.java:112) [fabric-loader-0.14.15.jar:?]
+        at java.lang.ClassLoader.loadClass(ClassLoader.java:520) [?:?]
+        at java.lang.Class.forName0(Native Method) ~[?:?]
+        at java.lang.Class.forName(Class.java:467) [?:?]
+        at net.fabricmc.loader.impl.util.DefaultLanguageAdapter.create(DefaultLanguageAdapter.java:50) [fabric-loader-0.14.15.jar:?]
+        at net.fabricmc.loader.impl.entrypoint.EntrypointStorage$NewEntry.getOrCreate(EntrypointStorage.java:117) [fabric-loader-0.14.15.jar:?]
+        at net.fabricmc.loader.impl.entrypoint.EntrypointContainerImpl.getEntrypoint(EntrypointContainerImpl.java:53) [fabric-loader-0.14.15.jar:?]
+        at net.fabricmc.loader.impl.entrypoint.EntrypointUtils.invoke0(EntrypointUtils.java:47) [fabric-loader-0.14.15.jar:?]
+        at net.fabricmc.loader.impl.entrypoint.EntrypointUtils.invoke(EntrypointUtils.java:35) [fabric-loader-0.14.15.jar:?]
+        at net.fabricmc.loader.impl.launch.knot.Knot.init(Knot.java:162) [fabric-loader-0.14.15.jar:?]
+        at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:68) [fabric-loader-0.14.15.jar:?]
+        at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.14.15.jar:?]
+        at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.14.15.jar:?]
+        at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) [fabric-server-mc.1.19.2-loader.0.14.15-launcher.0.11.2.jar:0.11.2]
+Caused by: java.lang.RuntimeException: Cannot load class satisfyu.vinery.mixin.CreativeInventoryScreenMixin in environment type SERVER
+        at net.fabricmc.loader.impl.transformer.FabricTransformer.transform(FabricTransformer.java:59) ~[fabric-loader-0.14.15.jar:?]
+        at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPreMixinClassByteArray(KnotClassDelegate.java:462) ~[fabric-loader-0.14.15.jar:?]
+        at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPreMixinClassBytes(KnotClassDelegate.java:433) ~[fabric-loader-0.14.15.jar:?]
+        at net.fabricmc.loader.impl.launch.knot.Knot.getClassByteArray(Knot.java:320) ~[fabric-loader-0.14.15.jar:?]
+        at net.fabricmc.loader.impl.launch.knot.MixinServiceKnot.getClassBytes(MixinServiceKnot.java:60) ~[fabric-loader-0.14.15.jar:?]
+        at net.fabricmc.loader.impl.launch.knot.MixinServiceKnot.getClassNode(MixinServiceKnot.java:76) ~[fabric-loader-0.14.15.jar:?]
+        at org.spongepowered.asm.mixin.transformer.MixinInfo.loadMixinClass(MixinInfo.java:1312) ~[sponge-mixin-0.12.3+mixin.0.8.5.jar:0.12.3+mixin.0.8.5]
+        at org.spongepowered.asm.mixin.transformer.MixinInfo.<init>(MixinInfo.java:858) ~[sponge-mixin-0.12.3+mixin.0.8.5.jar:0.12.3+mixin.0.8.5]
+        ... 25 more
+[23:57:38] [main/WARN]: Error loading class: net/minecraft/class_5683 (java.lang.ClassNotFoundException: net/minecraft/class_5683)
+[23:57:38] [main/WARN]: @Mixin target net.minecraft.class_5683 was not found vinery.mixins.json:OrderedTextToolTipAccessor from mod vinery
+[23:57:38] [main/WARN]: Error loading class: net/minecraft/class_746 (java.lang.ClassNotFoundException: net/minecraft/class_746)
+[23:57:38] [main/WARN]: @Mixin target net.minecraft.class_746 was not found vinery.mixins.json:ClientPlayerEntityMixin from mod vinery
+[23:57:38] [main/WARN]: Error loading class: net/minecraft/class_437 (java.lang.ClassNotFoundException: net/minecraft/class_437)
+[23:57:38] [main/WARN]: @Mixin target net.minecraft.class_437 was not found vinery.mixins.json:LongToolTipsMixin from mod vinery
+[23:57:43] [main/WARN]: @Final field field_6280:Ljava/util/Map; in vinery.mixins.json:LivingEntityMixin from mod vinery should be final
+[23:57:47] [main/INFO]: Gobber Mod Info Message: Max value of attribute.name.generic.armor is currently set to 80.0
+[23:57:50] [main/INFO]: Building unoptimized datafixer
+[23:57:55] [main/INFO]: [Animal Feeding Trough] Load Complete! Enjoy :D
+[23:57:56] [main/INFO]: Finished initialization
+[23:57:56] [main/INFO]: Reflections took 139 ms to scan 1 urls, producing 1 keys and 2 values
+[23:57:56] [main/INFO]: Reflections took 4 ms to scan 1 urls, producing 1 keys and 2 values
+[23:57:56] [main/INFO]: Reflections took 4 ms to scan 1 urls, producing 1 keys and 3 values
+[23:57:56] [main/INFO]: Reflections took 5 ms to scan 1 urls, producing 1 keys and 3 values
+[23:57:57] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
+[23:57:57] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 2 values
+[23:57:57] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 1 values
+[23:57:57] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[23:57:57] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
+[23:57:57] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
+[23:57:57] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[23:57:57] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 1 values
+[23:57:57] [main/INFO]: Initializing network...
+[23:57:57] [main/INFO]: Initialized network!
+[23:57:58] [main/ERROR]: No data fixer registered for byg:boat
+[23:57:58] [main/ERROR]: No data fixer registered for byg:chest_boat
+[23:57:58] [main/ERROR]: No data fixer registered for byg:man_o_war
+[23:57:58] [main/ERROR]: No data fixer registered for byg:pumpkin_warden
+[23:57:59] [main/INFO]: [STDOUT]: All 6 have been set properly
+[23:58:00] [main/INFO]: Loaded config: goblintraders.entities.toml
+[23:58:03] [main/WARN]: Encountered duplicate API provider registration for item: minecraft:bucket
+[23:58:03] [main/WARN]: Encountered duplicate API provider registration for item: minecraft:glass_bottle
+[23:58:03] [main/WARN]: Encountered duplicate API provider registration for item: minecraft:glass_bottle
+[23:58:03] [main/WARN]: Encountered duplicate API provider registration for item: minecraft:bucket
+[23:58:04] [main/WARN]: Encountered duplicate API provider registration for item: minecraft:bucket
+[23:58:04] [main/INFO]: Constructing common components for mod easyanvils
+[23:58:04] [main/INFO]: Constructing common components for mod easymagic
+[23:58:05] [main/INFO]: ExpandAbility here, who dis?
+[23:58:05] [main/INFO]: Registered geode
+[23:58:06] [main/INFO]: Definitely not up to no good
+[23:58:06] [main/INFO]: Giving mobs a fresh coat of paint...
+[23:58:06] [main/INFO]: Registered paragon
+[23:58:06] [main/INFO]: acee#1220
+[23:58:06] [main/INFO]: Paragon has been initialized
+[23:58:06] [main/INFO]: Registering Mod Components
+[23:58:06] [main/INFO]: Constructing common components for mod puzzleslib
+[23:58:06] [main/ERROR]: No data fixer registered for burned
+[23:58:06] [main/ERROR]: No data fixer registered for frostbitten
+[23:58:06] [main/ERROR]: No data fixer registered for swampy
+[23:58:06] [main/ERROR]: No data fixer registered for undead_miner
+[23:58:06] [main/ERROR]: No data fixer registered for mummy
+[23:58:06] [main/ERROR]: No data fixer registered for glacial_hunter
+[23:58:06] [main/ERROR]: No data fixer registered for hunter_wolf
+[23:58:06] [main/ERROR]: No data fixer registered for scarab
+[23:58:06] [main/ERROR]: No data fixer registered for flying_scarab
+[23:58:06] [main/ERROR]: No data fixer registered for dead_beard
+[23:58:06] [main/ERROR]: No data fixer registered for zombie_lackey
+[23:58:06] [main/ERROR]: No data fixer registered for skeleton_lackey
+[23:58:06] [main/ERROR]: No data fixer registered for immortal
+[23:58:06] [main/ERROR]: No data fixer registered for zap
+[23:58:06] [main/ERROR]: No data fixer registered for primed_tnt_barrel
+[23:58:06] [main/ERROR]: No data fixer registered for treasure_chest
+[23:58:06] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:request_tags_c2s
+[23:58:06] [main/INFO]: [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REIPlugin
+[23:58:06] [main/INFO]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIPlugin
+[23:58:06] [main/INFO]: [REI] Registered plugin provider ReiCompat [travelersbackpack] for REIPlugin
+[23:58:06] [main/INFO]: [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REIServerPlugin
+[23:58:06] [main/INFO]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIServerPlugin
+[23:58:06] [main/INFO]: [REI] Registered plugin provider ReiCompat [travelersbackpack] for REIServerPlugin
+[23:58:06] [main/INFO]: [REI] Registered plugin provider FabricFluidAPISupportPlugin for REIServerPlugin
+[23:58:06] [main/INFO]: [REI] Registered plugin provider FabricFluidAPISupportPlugin for REIPlugin
+[23:58:06] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:delete_item
+[23:58:06] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item
+[23:58:06] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_grab
+[23:58:06] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_hotbar
+[23:58:06] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:move_items
+[23:58:07] [main/INFO]: Loading Towns and Towers!
+[23:58:07] [main/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[23:58:07] [main/INFO]: Registered region minecraft:nether to index 0 for type NETHER
+[23:58:07] [main/INFO]: Registered region byg:region_0 to index 1 for type OVERWORLD
+[23:58:07] [main/INFO]: Registered region byg:region_1 to index 2 for type OVERWORLD
+[23:58:07] [main/INFO]: Registered region byg:region_2 to index 3 for type OVERWORLD
+[23:58:07] [main/INFO]: Registered region byg:region_3 to index 4 for type OVERWORLD
+[23:58:07] [main/INFO]: Registered the class com.tiviacz.travelersbackpack.fluids.effects.WaterEffect as a FluidEffect for minecraft:water 81000 with the ID 0
+[23:58:07] [main/INFO]: Registered the class com.tiviacz.travelersbackpack.fluids.effects.LavaEffect as a FluidEffect for minecraft:lava 81000 with the ID 1
+[23:58:07] [main/INFO]: Registered the class com.tiviacz.travelersbackpack.fluids.effects.PotionEffect as a FluidEffect for travelersbackpack:potion_still 27000 with the ID 2
+[23:58:07] [main/INFO]: Registered the class com.tiviacz.travelersbackpack.fluids.effects.MilkEffect as a FluidEffect for travelersbackpack:milk_still 81000 with the ID 3
+[23:58:07] [main/INFO]: [STDOUT]: [Uncrafting Table].\config
+[23:58:07] [main/INFO]: Registering C2S receiver with id uncraftingtable76:network
+[23:58:08] [main/INFO]: Reflections took 5 ms to scan 1 urls, producing 1 keys and 4 values
+[23:58:08] [main/INFO]: Reflections took 7 ms to scan 1 urls, producing 1 keys and 4 values
+[23:58:08] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
+[23:58:08] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
+[23:58:08] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
+[23:58:08] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
+[23:58:08] [main/INFO]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[23:58:08] [main/INFO]: Loading Xaero's World Map - Stage 1/2 (Server)
+[23:58:08] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[23:58:12] [main/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
+[23:58:15] [main/ERROR]: Parsing error loading recipe create:cutting/compat/byg/mangrove_log
+com.google.gson.JsonSyntaxException: Unknown item 'byg:mangrove_log'
+        at net.minecraft.class_1869.method_17878(class_1869.java:253) ~[server-intermediary.jar:?]
+        at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+        at net.minecraft.class_1869.method_8155(class_1869.java:253) ~[server-intermediary.jar:?]
+        at net.minecraft.class_1856.method_8107(class_1856.java:162) ~[server-intermediary.jar:?]
+        at net.minecraft.class_1856.method_8102(class_1856.java:579) ~[server-intermediary.jar:?]
+        at com.simibubi.create.content.contraptions.processing.ProcessingRecipeSerializer.readFromJson(ProcessingRecipeSerializer.java:66) ~[create-fabric-0.5.0.i-961+1.19.2.jar:?]
+        at com.simibubi.create.content.contraptions.processing.ProcessingRecipeSerializer.fromJson(ProcessingRecipeSerializer.java:154) ~[create-fabric-0.5.0.i-961+1.19.2.jar:?]
+        at com.simibubi.create.content.contraptions.processing.ProcessingRecipeSerializer.method_8121(ProcessingRecipeSerializer.java:21) ~[create-fabric-0.5.0.i-961+1.19.2.jar:?]
+        at net.minecraft.class_1863.method_17720(class_1863.java:135) ~[server-intermediary.jar:?]
+        at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[server-intermediary.jar:?]
+        at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+        at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+        at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+        at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+        at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+        at net.minecraft.class_156.method_43498(class_156.java:958) [server-intermediary.jar:?]
+        at net.minecraft.class_156.method_43499(class_156.java:946) [server-intermediary.jar:?]
+        at net.minecraft.server.Main.main(Main.java:156) [server-intermediary.jar:?]
+        at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:462) [fabric-loader-0.14.15.jar:?]
+        at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.15.jar:?]
+        at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.14.15.jar:?]
+        at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.14.15.jar:?]
+        at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) [fabric-server-mc.1.19.2-loader.0.14.15-launcher.0.11.2.jar:0.11.2]
+[23:58:15] [main/ERROR]: IngredientDeserializer with ID not found: [farmersdelight:tool] this can be ignored unless issues occur.
+[23:58:15] [main/ERROR]: Parsing error loading recipe create:cutting/compat/byg/mangrove_wood
+com.google.gson.JsonSyntaxException: Unknown item 'byg:mangrove_wood'
+        at net.minecraft.class_1869.method_17878(class_1869.java:253) ~[server-intermediary.jar:?]
+        at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+        at net.minecraft.class_1869.method_8155(class_1869.java:253) ~[server-intermediary.jar:?]
+        at net.minecraft.class_1856.method_8107(class_1856.java:162) ~[server-intermediary.jar:?]
+        at net.minecraft.class_1856.method_8102(class_1856.java:579) ~[server-intermediary.jar:?]
+        at com.simibubi.create.content.contraptions.processing.ProcessingRecipeSerializer.readFromJson(ProcessingRecipeSerializer.java:66) ~[create-fabric-0.5.0.i-961+1.19.2.jar:?]
+        at com.simibubi.create.content.contraptions.processing.ProcessingRecipeSerializer.fromJson(ProcessingRecipeSerializer.java:154) ~[create-fabric-0.5.0.i-961+1.19.2.jar:?]
+        at com.simibubi.create.content.contraptions.processing.ProcessingRecipeSerializer.method_8121(ProcessingRecipeSerializer.java:21) ~[create-fabric-0.5.0.i-961+1.19.2.jar:?]
+        at net.minecraft.class_1863.method_17720(class_1863.java:135) ~[server-intermediary.jar:?]
+        at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[server-intermediary.jar:?]
+        at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+        at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+        at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+        at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+        at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+        at net.minecraft.class_156.method_43498(class_156.java:958) [server-intermediary.jar:?]
+        at net.minecraft.class_156.method_43499(class_156.java:946) [server-intermediary.jar:?]
+        at net.minecraft.server.Main.main(Main.java:156) [server-intermediary.jar:?]
+        at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:462) [fabric-loader-0.14.15.jar:?]
+        at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.15.jar:?]
+        at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.14.15.jar:?]
+        at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.14.15.jar:?]
+        at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) [fabric-server-mc.1.19.2-loader.0.14.15-launcher.0.11.2.jar:0.11.2]
+[23:58:15] [main/ERROR]: Parsing error loading recipe wizards:staff_smaragdant_frost
+com.google.gson.JsonSyntaxException: Unknown item 'betterend:smaragdant_crystal_shard'
+        at net.minecraft.class_1869.method_17878(class_1869.java:253) ~[server-intermediary.jar:?]
+        at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+        at net.minecraft.class_1869.method_8155(class_1869.java:253) ~[server-intermediary.jar:?]
+        at net.minecraft.class_1856.method_8107(class_1856.java:162) ~[server-intermediary.jar:?]
+        at net.minecraft.class_1856.method_8102(class_1856.java:579) ~[server-intermediary.jar:?]
+        at net.minecraft.class_1869.method_8157(class_1869.java:233) ~[server-intermediary.jar:?]
+        at net.minecraft.class_1869$class_1870.method_8164(class_1869.java:265) ~[server-intermediary.jar:?]
+        at net.minecraft.class_1869$class_1870.method_8121(class_1869.java:260) ~[server-intermediary.jar:?]
+        at net.minecraft.class_1863.method_17720(class_1863.java:135) ~[server-intermediary.jar:?]
+        at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[server-intermediary.jar:?]
+        at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+        at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+        at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+        at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+        at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+        at net.minecraft.class_156.method_43498(class_156.java:958) [server-intermediary.jar:?]
+        at net.minecraft.class_156.method_43499(class_156.java:946) [server-intermediary.jar:?]
+        at net.minecraft.server.Main.main(Main.java:156) [server-intermediary.jar:?]
+        at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:462) [fabric-loader-0.14.15.jar:?]
+        at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.15.jar:?]
+        at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.14.15.jar:?]
+        at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.14.15.jar:?]
+        at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) [fabric-server-mc.1.19.2-loader.0.14.15-launcher.0.11.2.jar:0.11.2]
+[23:58:15] [main/WARN]: Suspicious fluid amount in recipe [farmersdelight:create/filling/chocolate_pie]: 500
+[23:58:15] [main/ERROR]: Parsing error loading recipe create:cutting/compat/byg/stripped_mangrove_log
+com.google.gson.JsonSyntaxException: Unknown item 'byg:stripped_mangrove_log'
+        at net.minecraft.class_1869.method_17878(class_1869.java:253) ~[server-intermediary.jar:?]
+        at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+        at net.minecraft.class_1869.method_8155(class_1869.java:253) ~[server-intermediary.jar:?]
+        at net.minecraft.class_1856.method_8107(class_1856.java:162) ~[server-intermediary.jar:?]
+        at net.minecraft.class_1856.method_8102(class_1856.java:579) ~[server-intermediary.jar:?]
+        at com.simibubi.create.content.contraptions.processing.ProcessingRecipeSerializer.readFromJson(ProcessingRecipeSerializer.java:66) ~[create-fabric-0.5.0.i-961+1.19.2.jar:?]
+        at com.simibubi.create.content.contraptions.processing.ProcessingRecipeSerializer.fromJson(ProcessingRecipeSerializer.java:154) ~[create-fabric-0.5.0.i-961+1.19.2.jar:?]
+        at com.simibubi.create.content.contraptions.processing.ProcessingRecipeSerializer.method_8121(ProcessingRecipeSerializer.java:21) ~[create-fabric-0.5.0.i-961+1.19.2.jar:?]
+        at net.minecraft.class_1863.method_17720(class_1863.java:135) ~[server-intermediary.jar:?]
+        at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[server-intermediary.jar:?]
+        at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+        at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+        at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+        at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+        at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+        at net.minecraft.class_156.method_43498(class_156.java:958) [server-intermediary.jar:?]
+        at net.minecraft.class_156.method_43499(class_156.java:946) [server-intermediary.jar:?]
+        at net.minecraft.server.Main.main(Main.java:156) [server-intermediary.jar:?]
+        at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:462) [fabric-loader-0.14.15.jar:?]
+        at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.15.jar:?]
+        at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.14.15.jar:?]
+        at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.14.15.jar:?]
+        at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) [fabric-server-mc.1.19.2-loader.0.14.15-launcher.0.11.2.jar:0.11.2]
+[23:58:15] [main/WARN]: Suspicious fluid amount in recipe [farmersdelight:create/mixing/pie_crust_from_mixing]: 250
+[23:58:15] [main/ERROR]: Parsing error loading recipe wizards:staff_crystal_arcane
+com.google.gson.JsonSyntaxException: Unknown item 'betterend:crystal_shards'
+        at net.minecraft.class_1869.method_17878(class_1869.java:253) ~[server-intermediary.jar:?]
+        at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+        at net.minecraft.class_1869.method_8155(class_1869.java:253) ~[server-intermediary.jar:?]
+        at net.minecraft.class_1856.method_8107(class_1856.java:162) ~[server-intermediary.jar:?]
+        at net.minecraft.class_1856.method_8102(class_1856.java:579) ~[server-intermediary.jar:?]
+        at net.minecraft.class_1869.method_8157(class_1869.java:233) ~[server-intermediary.jar:?]
+        at net.minecraft.class_1869$class_1870.method_8164(class_1869.java:265) ~[server-intermediary.jar:?]
+        at net.minecraft.class_1869$class_1870.method_8121(class_1869.java:260) ~[server-intermediary.jar:?]
+        at net.minecraft.class_1863.method_17720(class_1863.java:135) ~[server-intermediary.jar:?]
+        at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[server-intermediary.jar:?]
+        at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+        at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+        at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+        at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+        at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+        at net.minecraft.class_156.method_43498(class_156.java:958) [server-intermediary.jar:?]
+        at net.minecraft.class_156.method_43499(class_156.java:946) [server-intermediary.jar:?]
+        at net.minecraft.server.Main.main(Main.java:156) [server-intermediary.jar:?]
+        at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:462) [fabric-loader-0.14.15.jar:?]
+        at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.15.jar:?]
+        at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.14.15.jar:?]
+        at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.14.15.jar:?]
+        at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) [fabric-server-mc.1.19.2-loader.0.14.15-launcher.0.11.2.jar:0.11.2]
+[23:58:15] [main/ERROR]: Parsing error loading recipe wizards:staff_ruby_fire
+com.google.gson.JsonSyntaxException: Unknown item 'betternether:nether_ruby'
+        at net.minecraft.class_1869.method_17878(class_1869.java:253) ~[server-intermediary.jar:?]
+        at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+        at net.minecraft.class_1869.method_8155(class_1869.java:253) ~[server-intermediary.jar:?]
+        at net.minecraft.class_1856.method_8107(class_1856.java:162) ~[server-intermediary.jar:?]
+        at net.minecraft.class_1856.method_8102(class_1856.java:579) ~[server-intermediary.jar:?]
+        at net.minecraft.class_1869.method_8157(class_1869.java:233) ~[server-intermediary.jar:?]
+        at net.minecraft.class_1869$class_1870.method_8164(class_1869.java:265) ~[server-intermediary.jar:?]
+        at net.minecraft.class_1869$class_1870.method_8121(class_1869.java:260) ~[server-intermediary.jar:?]
+        at net.minecraft.class_1863.method_17720(class_1863.java:135) ~[server-intermediary.jar:?]
+        at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[server-intermediary.jar:?]
+        at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+        at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+        at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+        at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+        at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+        at net.minecraft.class_156.method_43498(class_156.java:958) [server-intermediary.jar:?]
+        at net.minecraft.class_156.method_43499(class_156.java:946) [server-intermediary.jar:?]
+        at net.minecraft.server.Main.main(Main.java:156) [server-intermediary.jar:?]
+        at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:462) [fabric-loader-0.14.15.jar:?]
+        at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.15.jar:?]
+        at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.14.15.jar:?]
+        at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.14.15.jar:?]
+        at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) [fabric-server-mc.1.19.2-loader.0.14.15-launcher.0.11.2.jar:0.11.2]
+[23:58:15] [main/ERROR]: Parsing error loading recipe create:cutting/compat/byg/stripped_mangrove_wood
+com.google.gson.JsonSyntaxException: Unknown item 'byg:stripped_mangrove_wood'
+        at net.minecraft.class_1869.method_17878(class_1869.java:253) ~[server-intermediary.jar:?]
+        at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+        at net.minecraft.class_1869.method_8155(class_1869.java:253) ~[server-intermediary.jar:?]
+        at net.minecraft.class_1856.method_8107(class_1856.java:162) ~[server-intermediary.jar:?]
+        at net.minecraft.class_1856.method_8102(class_1856.java:579) ~[server-intermediary.jar:?]
+        at com.simibubi.create.content.contraptions.processing.ProcessingRecipeSerializer.readFromJson(ProcessingRecipeSerializer.java:66) ~[create-fabric-0.5.0.i-961+1.19.2.jar:?]
+        at com.simibubi.create.content.contraptions.processing.ProcessingRecipeSerializer.fromJson(ProcessingRecipeSerializer.java:154) ~[create-fabric-0.5.0.i-961+1.19.2.jar:?]
+        at com.simibubi.create.content.contraptions.processing.ProcessingRecipeSerializer.method_8121(ProcessingRecipeSerializer.java:21) ~[create-fabric-0.5.0.i-961+1.19.2.jar:?]
+        at net.minecraft.class_1863.method_17720(class_1863.java:135) ~[server-intermediary.jar:?]
+        at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[server-intermediary.jar:?]
+        at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+        at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+        at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+        at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+        at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+        at net.minecraft.class_156.method_43498(class_156.java:958) [server-intermediary.jar:?]
+        at net.minecraft.class_156.method_43499(class_156.java:946) [server-intermediary.jar:?]
+        at net.minecraft.server.Main.main(Main.java:156) [server-intermediary.jar:?]
+        at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:462) [fabric-loader-0.14.15.jar:?]
+        at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.15.jar:?]
+        at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.14.15.jar:?]
+        at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.14.15.jar:?]
+        at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) [fabric-server-mc.1.19.2-loader.0.14.15-launcher.0.11.2.jar:0.11.2]
+[23:58:15] [main/INFO]: Loaded 28 recipes
+[23:58:16] [main/INFO]: Loaded 3258 advancements
+[23:58:16] [main/INFO]: [REI] ++++++++++++++++++++++++++++++++++++++++
+[23:58:16] [main/INFO]: [REI] REIPlugin starting main-reload for START.
+[23:58:16] [main/INFO]: [REI] Plugins (4):
+[23:58:16] [main/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[23:58:16] [main/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
+[23:58:16] [main/INFO]: [REI]  - (0.00) ReiCompat of ReiCompat [travelersbackpack]
+[23:58:16] [main/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[23:58:16] [main/INFO]: [REI] ++++++++++++++++++++++++++++++++++++++++
+[23:58:16] [main/INFO]: [REI] %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[23:58:16] [main/INFO]: [REI] REIServerPlugin starting main-reload for START.
+[23:58:16] [main/INFO]: [REI] Plugins (4):
+[23:58:16] [main/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[23:58:16] [main/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
+[23:58:16] [main/INFO]: [REI]  - (0.00) ReiCompat of ReiCompat [travelersbackpack]
+[23:58:16] [main/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[23:58:16] [main/INFO]: [REI] %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[23:58:16] [main/INFO]: [REI] REIPlugin finished post-reload for START in 2.684 ms, totaling 96.06 ms.
+[23:58:16] [main/INFO]: [REI] REIServerPlugin finished post-reload for START in 1.203 ms, totaling 12.89 ms.
+[23:58:16] [main/INFO]: [REI] ++++++++++++++++++++++++++++++++++++++++
+[23:58:16] [main/INFO]: [REI] REIPlugin starting main-reload for END.
+[23:58:16] [main/INFO]: [REI] Plugins (4):
+[23:58:16] [main/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[23:58:16] [main/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
+[23:58:16] [main/INFO]: [REI]  - (0.00) ReiCompat of ReiCompat [travelersbackpack]
+[23:58:16] [main/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[23:58:16] [main/INFO]: [REI] ++++++++++++++++++++++++++++++++++++++++
+[23:58:16] [main/INFO]: [REI] %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[23:58:16] [main/INFO]: [REI] REIServerPlugin starting main-reload for END.
+[23:58:16] [main/INFO]: [REI] Plugins (4):
+[23:58:16] [main/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[23:58:16] [main/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
+[23:58:16] [main/INFO]: [REI]  - (0.00) ReiCompat of ReiCompat [travelersbackpack]
+[23:58:16] [main/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[23:58:16] [main/INFO]: [REI] %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[23:58:16] [main/INFO]: [REI] REIPlugin finished post-reload for END in 750.3 μs, totaling 74.22 ms.
+[23:58:16] [main/INFO]: [REI] REIServerPlugin finished post-reload for END in 984.9 μs, totaling 34.30 ms.
+[23:58:19] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[23:58:20] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[23:58:20] [main/INFO]: Applied 2348 biome modifications to 138 of 138 new biomes in 90.63 ms
+[23:58:20] [Server thread/INFO]: Loading server configs...
+[23:58:20] [Server thread/INFO]: Loaded config: configured.developer.toml
+[23:58:20] [Server thread/INFO]: Registering compost heaps in village type of plains
+[23:58:20] [Server thread/INFO]: Registering compost heaps in village type of savanna
+[23:58:20] [Server thread/INFO]: Registering compost heaps in village type of snowy
+[23:58:20] [Server thread/INFO]: Registering compost heaps in village type of taiga
+[23:58:20] [Server thread/INFO]: Registering compost heaps in village type of desert
+[23:58:20] [Server thread/WARN]: Configuration file .\world\serverconfig\create-server.toml is not correct. Correcting
+[23:58:20] [Server thread/WARN]: Incorrect key limitAdventureMode was corrected from null to its default, true.
+[23:58:20] [Server thread/WARN]: Incorrect key infrastructure was corrected from null to its default, SimpleCommentedConfig:{}.
+[23:58:20] [Server thread/WARN]: Incorrect key infrastructure.tickrateSyncTimer was corrected from null to its default, 20.
+[23:58:20] [Server thread/WARN]: Incorrect key recipes was corrected from null to its default, SimpleCommentedConfig:{}.
+[23:58:20] [Server thread/WARN]: Incorrect key recipes.bulkPressing was corrected from null to its default, false.
+[23:58:20] [Server thread/WARN]: Incorrect key recipes.bulkCutting was corrected from null to its default, false.
+[23:58:20] [Server thread/WARN]: Incorrect key recipes.allowBrewingInMixer was corrected from null to its default, true.
+[23:58:20] [Server thread/WARN]: Incorrect key recipes.allowShapelessInMixer was corrected from null to its default, true.
+[23:58:20] [Server thread/WARN]: Incorrect key recipes.allowShapedSquareInPress was corrected from null to its default, true.
+[23:58:20] [Server thread/WARN]: Incorrect key recipes.allowRegularCraftingInCrafter was corrected from null to its default, true.
+[23:58:20] [Server thread/WARN]: Incorrect key recipes.maxFireworkIngredientsInCrafter was corrected from null to its default, 9.
+[23:58:20] [Server thread/WARN]: Incorrect key recipes.allowStonecuttingOnSaw was corrected from null to its default, true.
+[23:58:20] [Server thread/WARN]: Incorrect key recipes.allowWoodcuttingOnSaw was corrected from null to its default, true.
+[23:58:20] [Server thread/WARN]: Incorrect key recipes.allowCastingBySpout was corrected from null to its default, true.
+[23:58:20] [Server thread/WARN]: Incorrect key recipes.allowFillingBySpout was corrected from null to its default, true.
+[23:58:20] [Server thread/WARN]: Incorrect key recipes.displayLogStrippingRecipes was corrected from null to its default, true.
+[23:58:20] [Server thread/WARN]: Incorrect key recipes.lightSourceCountForRefinedRadiance was corrected from null to its default, 10.
+[23:58:20] [Server thread/WARN]: Incorrect key recipes.enableRefinedRadianceRecipe was corrected from null to its default, true.
+[23:58:20] [Server thread/WARN]: Incorrect key recipes.enableShadowSteelRecipe was corrected from null to its default, true.
+[23:58:20] [Server thread/WARN]: Incorrect key kinetics was corrected from null to its default, SimpleCommentedConfig:{}.
+[23:58:20] [Server thread/WARN]: Incorrect key kinetics.disableStress was corrected from null to its default, false.
+[23:58:20] [Server thread/WARN]: Incorrect key kinetics.maxBeltLength was corrected from null to its default, 20.
+[23:58:20] [Server thread/WARN]: Incorrect key kinetics.crushingDamage was corrected from null to its default, 4.
+[23:58:20] [Server thread/WARN]: Incorrect key kinetics.maxMotorSpeed was corrected from null to its default, 256.
+[23:58:20] [Server thread/WARN]: Incorrect key kinetics.waterWheelBaseSpeed was corrected from null to its default, 4.
+[23:58:20] [Server thread/WARN]: Incorrect key kinetics.waterWheelFlowSpeed was corrected from null to its default, 4.
+[23:58:20] [Server thread/WARN]: Incorrect key kinetics.maxRotationSpeed was corrected from null to its default, 256.
+[23:58:20] [Server thread/WARN]: Incorrect key kinetics.ignoreDeployerAttacks was corrected from null to its default, CREEPERS.
+[23:58:20] [Server thread/WARN]: Incorrect key kinetics.kineticValidationFrequency was corrected from null to its default, 60.
+[23:58:20] [Server thread/WARN]: Incorrect key kinetics.crankHungerMultiplier was corrected from null to its default, 0.009999999776482582.
+[23:58:20] [Server thread/WARN]: Incorrect key kinetics.minimumWindmillSails was corrected from null to its default, 8. 
+[23:58:20] [Server thread/WARN]: Incorrect key kinetics.windmillSailsPerRPM was corrected from null to its default, 8.
+[23:58:20] [Server thread/WARN]: Incorrect key kinetics.maxEjectorDistance was corrected from null to its default, 32.
+[23:58:20] [Server thread/WARN]: Incorrect key kinetics.ejectorScanInterval was corrected from null to its default, 120.
+[23:58:20] [Server thread/WARN]: Incorrect key kinetics.encasedFan was corrected from null to its default, SimpleCommentedConfig:{}.
+[23:58:20] [Server thread/WARN]: Incorrect key kinetics.encasedFan.fanPushDistance was corrected from null to its default, 20.
+[23:58:20] [Server thread/WARN]: Incorrect key kinetics.encasedFan.fanPullDistance was corrected from null to its default, 20.
+[23:58:20] [Server thread/WARN]: Incorrect key kinetics.encasedFan.fanBlockCheckRate was corrected from null to its default, 30.
+[23:58:20] [Server thread/WARN]: Incorrect key kinetics.encasedFan.fanRotationArgmax was corrected from null to its default, 256.
+[23:58:20] [Server thread/WARN]: Incorrect key kinetics.encasedFan.inWorldProcessingTime was corrected from null to its default, 150.
+[23:58:20] [Server thread/WARN]: Incorrect key kinetics.contraptions was corrected from null to its default, SimpleCommentedConfig:{}.
+[23:58:20] [Server thread/WARN]: Incorrect key kinetics.contraptions.maxBlocksMoved was corrected from null to its default, 2048.
+[23:58:20] [Server thread/WARN]: Incorrect key kinetics.contraptions.maxDataSize was corrected from null to its default, 2000000.
+[23:58:20] [Server thread/WARN]: Incorrect key kinetics.contraptions.maxChassisRange was corrected from null to its default, 16.
+[23:58:20] [Server thread/WARN]: Incorrect key kinetics.contraptions.maxPistonPoles was corrected from null to its default, 64.
+[23:58:20] [Server thread/WARN]: Incorrect key kinetics.contraptions.maxRopeLength was corrected from null to its default, 256.
+[23:58:20] [Server thread/WARN]: Incorrect key kinetics.contraptions.maxCartCouplingLength was corrected from null to its default, 32.
+[23:58:20] [Server thread/WARN]: Incorrect key kinetics.contraptions.survivalContraptionPickup was corrected from null to its default, true.
+[23:58:20] [Server thread/WARN]: Incorrect key kinetics.contraptions.movableSpawners was corrected from null to its default, NO_PICKUP.
+[23:58:20] [Server thread/WARN]: Incorrect key kinetics.contraptions.amethystMovement was corrected from null to its default, NO_PICKUP.
+[23:58:20] [Server thread/WARN]: Incorrect key kinetics.contraptions.movableObsidian was corrected from null to its default, UNMOVABLE.
+[23:58:20] [Server thread/WARN]: Incorrect key kinetics.contraptions.movableReinforcedDeepslate was corrected from null to its default, UNMOVABLE.
+[23:58:20] [Server thread/WARN]: Incorrect key kinetics.contraptions.moveItemsToStorage was corrected from null to its default, true.
+[23:58:20] [Server thread/WARN]: Incorrect key kinetics.contraptions.harvestPartiallyGrown was corrected from null to its default, false.
+[23:58:20] [Server thread/WARN]: Incorrect key kinetics.contraptions.harvesterReplants was corrected from null to its default, true.
+[23:58:20] [Server thread/WARN]: Incorrect key kinetics.stressValues was corrected from null to its default, SimpleCommentedConfig:{}.
+[23:58:20] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2 was corrected from null to its default, SimpleCommentedConfig:{}.
+[23:58:20] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact was corrected from null to its default, SimpleCommentedConfig:{}.
+[23:58:20] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.display_board was corrected from null to its default, 0.0.
+[23:58:20] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.deployer was corrected from null to its default, 4.0.
+[23:58:20] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.mechanical_piston was corrected from null to its default, 4.0.
+[23:58:20] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.millstone was corrected from null to its default, 4.0.
+[23:58:20] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.mechanical_bearing was corrected from null to its default, 4.0.
+[23:58:20] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.clockwork_bearing was corrected from null to its default, 4.0.
+[23:58:20] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.cuckoo_clock was corrected from null to its default, 1.0.
+[23:58:20] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.speedometer was corrected from null to its default, 0.0.
+[23:58:20] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.copper_backtank was corrected from null to its default, 4.0.
+[23:58:20] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.mechanical_saw was corrected from null to its default, 4.0.
+[23:58:20] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.flywheel was corrected from null to its default, 0.0.
+[23:58:20] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.encased_chain_drive was corrected from null to its default, 0.0.
+[23:58:20] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.clutch was corrected from null to its default, 0.0.
+[23:58:20] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.encased_fan was corrected from null to its default, 2.0.
+[23:58:20] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.adjustable_chain_gearshift was corrected from null to its default, 0.0.
+[23:58:20] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.mechanical_pump was corrected from null to its default, 4.0.
+[23:58:20] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.crushing_wheel was corrected from null to its default, 8.0.
+[23:58:20] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.mechanical_mixer was corrected from null to its default, 4.0.
+[23:58:20] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.gantry_shaft was corrected from null to its default, 0.0.
+[23:58:20] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.rope_pulley was corrected from null to its default, 4.0.
+[23:58:20] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.rotation_speed_controller was corrected from null to its default, 0.0.
+[23:58:20] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.mechanical_arm was corrected from null to its default, 2.0.
+[23:58:20] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.andesite_encased_shaft was corrected from null to its default, 0.0.
+[23:58:20] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.mechanical_press was corrected from null to its default, 8.0.
+[23:58:20] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.large_cogwheel was corrected from null to its default, 0.0.
+[23:58:20] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.mechanical_drill was corrected from null to its default, 4.0.
+[23:58:20] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.andesite_encased_large_cogwheel was corrected from null to its default, 0.0.
+[23:58:20] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.brass_encased_large_cogwheel was corrected from null to its default, 0.0.
+[23:58:20] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.mysterious_cuckoo_clock was corrected from null to its default, 1.0.
+[23:58:20] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.stressometer was corrected from null to its default, 0.0.
+[23:58:20] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.shaft was corrected from null to its default, 0.0.
+[23:58:20] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.brass_encased_shaft was corrected from null to its default, 0.0.
+[23:58:20] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.gearshift was corrected from null to its default, 0.0.
+[23:58:20] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.turntable was corrected from null to its default, 4.0.
+[23:58:20] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.sticky_mechanical_piston was corrected from null to its default, 4.0.
+[23:58:20] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.sequenced_gearshift was corrected from null to its default, 0.0.
+[23:58:20] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.weighted_ejector was corrected from null to its default, 2.0.
+[23:58:20] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.cogwheel was corrected from null to its default, 0.0.
+[23:58:20] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.andesite_encased_cogwheel was corrected from null to its default, 0.0.
+[23:58:20] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.belt was corrected from null to its default, 0.0.
+[23:58:21] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.brass_encased_cogwheel was corrected from null to its default, 0.0.
+[23:58:21] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.gearbox was corrected from null to its default, 0.0.
+[23:58:21] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.hose_pulley was corrected from null to its default, 4.0.
+[23:58:21] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.mechanical_crafter was corrected from null to its default, 2.0.
+[23:58:21] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.capacity was corrected from null to its default, SimpleCommentedConfig:{}.
+[23:58:21] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.capacity.blue_valve_handle was corrected from null to its default, 8.0.
+[23:58:21] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.capacity.copper_valve_handle was corrected from null to its default, 8.0.
+[23:58:21] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.capacity.pink_valve_handle was corrected from null to its default, 8.0.
+[23:58:21] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.capacity.hand_crank was corrected from null to its default, 8.0.
+[23:58:21] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.capacity.black_valve_handle was corrected from null to its default, 8.0.
+[23:58:21] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.capacity.magenta_valve_handle was corrected from null to its default, 8.0.
+[23:58:21] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.capacity.white_valve_handle was corrected from null to its default, 8.0.
+[23:58:21] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.capacity.yellow_valve_handle was corrected from null to its default, 8.0.
+[23:58:21] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.capacity.brown_valve_handle was corrected from null to its default, 8.0.
+[23:58:21] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.capacity.cyan_valve_handle was corrected from null to its default, 8.0.
+[23:58:21] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.capacity.windmill_bearing was corrected from null to its default, 512.0.
+[23:58:21] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.capacity.light_blue_valve_handle was corrected from null to its default, 8.0.
+[23:58:21] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.capacity.lime_valve_handle was corrected from null to its default, 8.0.
+[23:58:21] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.capacity.purple_valve_handle was corrected from null to its default, 8.0.
+[23:58:21] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.capacity.red_valve_handle was corrected from null to its default, 8.0.
+[23:58:21] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.capacity.steam_engine was corrected from null to its default, 1024.0.
+[23:58:21] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.capacity.creative_motor was corrected from null to its default, 16384.0.
+[23:58:21] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.capacity.gray_valve_handle was corrected from null to its default, 8.0.
+[23:58:21] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.capacity.water_wheel was corrected from null to its default, 16.0.
+[23:58:21] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.capacity.orange_valve_handle was corrected from null to its default, 8.0.
+[23:58:21] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.capacity.light_gray_valve_handle was corrected from null to its default, 8.0.
+[23:58:21] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.capacity.green_valve_handle was corrected from null to its default, 8.0.
+[23:58:21] [Server thread/WARN]: Incorrect key kinetics.stressValues.stats was corrected from null to its default, SimpleCommentedConfig:{}.
+[23:58:21] [Server thread/WARN]: Incorrect key kinetics.stressValues.stats.mediumSpeed was corrected from null to its default, 30.0.
+[23:58:21] [Server thread/WARN]: Incorrect key kinetics.stressValues.stats.fastSpeed was corrected from null to its default, 100.0.
+[23:58:21] [Server thread/WARN]: Incorrect key kinetics.stressValues.stats.mediumStressImpact was corrected from null to its default, 4.0.
+[23:58:21] [Server thread/WARN]: Incorrect key kinetics.stressValues.stats.highStressImpact was corrected from null to its default, 8.0.
+[23:58:21] [Server thread/WARN]: Incorrect key kinetics.stressValues.stats.mediumCapacity was corrected from null to its default, 128.0.
+[23:58:21] [Server thread/WARN]: Incorrect key kinetics.stressValues.stats.highCapacity was corrected from null to its default, 1024.0.
+[23:58:21] [Server thread/WARN]: Incorrect key fluids was corrected from null to its default, SimpleCommentedConfig:{}. 
+[23:58:21] [Server thread/WARN]: Incorrect key fluids.fluidTankCapacity was corrected from null to its default, 8.
+[23:58:21] [Server thread/WARN]: Incorrect key fluids.fluidTankMaxHeight was corrected from null to its default, 32.
+[23:58:21] [Server thread/WARN]: Incorrect key fluids.mechanicalPumpRange was corrected from null to its default, 16.
+[23:58:21] [Server thread/WARN]: Incorrect key fluids.hosePulleyRange was corrected from null to its default, 128.
+[23:58:21] [Server thread/WARN]: Incorrect key fluids.hosePulleyBlockThreshold was corrected from null to its default, 10000.
+[23:58:21] [Server thread/WARN]: Incorrect key fluids.fillInfinite was corrected from null to its default, false.
+[23:58:21] [Server thread/WARN]: Incorrect key fluids.bottomlessFluidMode was corrected from null to its default, ALLOW_BY_TAG.
+[23:58:21] [Server thread/WARN]: Incorrect key fluids.placeFluidSourceBlocks was corrected from null to its default, true.
+[23:58:21] [Server thread/WARN]: Incorrect key logistics was corrected from null to its default, SimpleCommentedConfig:{}.
+[23:58:21] [Server thread/WARN]: Incorrect key logistics.defaultExtractionLimit was corrected from null to its default, 64.
+[23:58:21] [Server thread/WARN]: Incorrect key logistics.defaultExtractionTimer was corrected from null to its default, 8.
+[23:58:21] [Server thread/WARN]: Incorrect key logistics.psiTimeout was corrected from null to its default, 20.
+[23:58:21] [Server thread/WARN]: Incorrect key logistics.mechanicalArmRange was corrected from null to its default, 5.
+[23:58:21] [Server thread/WARN]: Incorrect key logistics.linkRange was corrected from null to its default, 256.
+[23:58:21] [Server thread/WARN]: Incorrect key logistics.displayLinkRange was corrected from null to its default, 64.
+[23:58:21] [Server thread/WARN]: Incorrect key logistics.vaultCapacity was corrected from null to its default, 20.
+[23:58:21] [Server thread/WARN]: Incorrect key schematics was corrected from null to its default, SimpleCommentedConfig:{}.
+[23:58:21] [Server thread/WARN]: Incorrect key schematics.creativePrintIncludesAir was corrected from null to its default, false.
+[23:58:21] [Server thread/WARN]: Incorrect key schematics.maxSchematics was corrected from null to its default, 256.
+[23:58:21] [Server thread/WARN]: Incorrect key schematics.maxSchematicPacketSize was corrected from null to its default, 1024.
+[23:58:21] [Server thread/WARN]: Incorrect key schematics.schematicIdleTimeout was corrected from null to its default, 600.
+[23:58:21] [Server thread/WARN]: Incorrect key schematics.schematicannon was corrected from null to its default, SimpleCommentedConfig:{}.
+[23:58:21] [Server thread/WARN]: Incorrect key schematics.schematicannon.schematicannonDelay was corrected from null to its default, 10.
+[23:58:21] [Server thread/WARN]: Incorrect key schematics.schematicannon.schematicannonGunpowderWorth was corrected from null to its default, 20.0.
+[23:58:21] [Server thread/WARN]: Incorrect key schematics.schematicannon.schematicannonFuelUsage was corrected from null to its default, 0.05000000074505806.
+[23:58:21] [Server thread/WARN]: Incorrect key curiosities was corrected from null to its default, SimpleCommentedConfig:{}.
+[23:58:21] [Server thread/WARN]: Incorrect key curiosities.maxSymmetryWandRange was corrected from null to its default, 50.
+[23:58:21] [Server thread/WARN]: Incorrect key curiosities.placementAssistRange was corrected from null to its default, 12.
+[23:58:21] [Server thread/WARN]: Incorrect key curiosities.toolboxRange was corrected from null to its default, 10.
+[23:58:21] [Server thread/WARN]: Incorrect key curiosities.airInBacktank was corrected from null to its default, 900.
+[23:58:21] [Server thread/WARN]: Incorrect key curiosities.enchantedBacktankCapacity was corrected from null to its default, 300.
+[23:58:21] [Server thread/WARN]: Incorrect key curiosities.maxExtendoGripActions was corrected from null to its default, 1000.
+[23:58:21] [Server thread/WARN]: Incorrect key curiosities.maxPotatoCannonShots was corrected from null to its default, 200.
+[23:58:21] [Server thread/WARN]: Incorrect key trains was corrected from null to its default, SimpleCommentedConfig:{}. 
+[23:58:21] [Server thread/WARN]: Incorrect key trains.trainsCauseDamage was corrected from null to its default, true.
+[23:58:21] [Server thread/WARN]: Incorrect key trains.maxTrackPlacementLength was corrected from null to its default, 32.
+[23:58:21] [Server thread/WARN]: Incorrect key trains.maxAssemblyLength was corrected from null to its default, 128.
+[23:58:21] [Server thread/WARN]: Incorrect key trains.maxBogeyCount was corrected from null to its default, 20.
+[23:58:21] [Server thread/WARN]: Incorrect key trains.manualTrainSpeedModifier was corrected from null to its default, 0.75.
+[23:58:21] [Server thread/WARN]: Incorrect key trains.trainStats was corrected from null to its default, SimpleCommentedConfig:{}.
+[23:58:21] [Server thread/WARN]: Incorrect key trains.trainStats.trainTopSpeed was corrected from null to its default, 28.0.
+[23:58:21] [Server thread/WARN]: Incorrect key trains.trainStats.trainTurningTopSpeed was corrected from null to its default, 14.0.
+[23:58:21] [Server thread/WARN]: Incorrect key trains.trainStats.trainAcceleration was corrected from null to its default, 3.0.
+[23:58:21] [Server thread/WARN]: Incorrect key trains.poweredTrainStats was corrected from null to its default, SimpleCommentedConfig:{}.
+[23:58:21] [Server thread/WARN]: Incorrect key trains.poweredTrainStats.poweredTrainTopSpeed was corrected from null to its default, 40.0.
+[23:58:21] [Server thread/WARN]: Incorrect key trains.poweredTrainStats.poweredTrainTurningTopSpeed was corrected from null to its default, 20.0.
+[23:58:21] [Server thread/WARN]: Incorrect key trains.poweredTrainStats.poweredTrainAcceleration was corrected from null to its default, 3.0.
+[23:58:21] [Server thread/WARN]: Configuration file .\world\serverconfig\easyanvils-server.toml is not correct. Correcting
+[23:58:21] [Server thread/WARN]: Incorrect key miscellaneous was corrected from null to its default, SimpleCommentedConfig:{}.
+[23:58:21] [Server thread/WARN]: Incorrect key miscellaneous.anvil_break_chance was corrected from null to its default, 0.05.
+[23:58:21] [Server thread/WARN]: Incorrect key miscellaneous.risk_free_anvil_renaming was corrected from null to its default, true.
+[23:58:21] [Server thread/WARN]: Incorrect key miscellaneous.edit_name_tags_no_anvil was corrected from null to its default, true.
+[23:58:21] [Server thread/WARN]: Incorrect key miscellaneous.renaming_supports_formatting was corrected from null to its default, true.
+[23:58:21] [Server thread/WARN]: Incorrect key miscellaneous.anvil_repairing was corrected from null to its default, true.
+[23:58:21] [Server thread/WARN]: Incorrect key costs was corrected from null to its default, SimpleCommentedConfig:{}.
+[23:58:21] [Server thread/WARN]: Incorrect key costs.rare_enchantment_multiplier was corrected from null to its default, 4.
+[23:58:21] [Server thread/WARN]: Incorrect key costs.repair_with_other_item_cost was corrected from null to its default, 2.
+[23:58:21] [Server thread/WARN]: Incorrect key costs.common_enchantment_multiplier was corrected from null to its default, 1.
+[23:58:21] [Server thread/WARN]: Incorrect key costs.very_rare_enchantment_multiplier was corrected from null to its default, 8.
+[23:58:21] [Server thread/WARN]: Incorrect key costs.uncommon_enchantment_multiplier was corrected from null to its default, 2.
+[23:58:21] [Server thread/WARN]: Incorrect key costs.halved_book_costs was corrected from null to its default, true.
+[23:58:21] [Server thread/WARN]: Incorrect key costs.repair_with_material_unit_cost was corrected from null to its default, 1.
+[23:58:21] [Server thread/WARN]: Incorrect key costs.too_expensive_limit was corrected from null to its default, -1.
+[23:58:21] [Server thread/WARN]: Incorrect key costs.free_renames was corrected from null to its default, ALL_ITEMS.
+[23:58:21] [Server thread/WARN]: Incorrect key prior_work_penalty was corrected from null to its default, SimpleCommentedConfig:{}.
+[23:58:21] [Server thread/WARN]: Incorrect key prior_work_penalty.rename_and_repair_costs was corrected from null to its default, FIXED.
+[23:58:21] [Server thread/WARN]: Incorrect key prior_work_penalty.prior_work_penalty was corrected from null to its default, FIXED.
+[23:58:21] [Server thread/WARN]: Incorrect key prior_work_penalty.penalty_free_renames_and_repairs was corrected from null to its default, true.
+[23:58:21] [Server thread/WARN]: Incorrect key prior_work_penalty.prior_work_penalty_constant was corrected from null to its default, 4.
+[23:58:21] [Server thread/INFO]: Loading server config for easyanvils
+[23:58:21] [Thread-1/INFO]: Reloading server config for easyanvils
+[23:58:21] [Server thread/WARN]: Configuration file .\world\serverconfig\easymagic-server.toml is not correct. Correcting
+[23:58:21] [Thread-1/INFO]: Reloading server config for easyanvils
+[23:58:21] [Server thread/WARN]: Incorrect key max_enchanting_power was corrected from null to its default, 15.
+[23:58:21] [Server thread/WARN]: Incorrect key reroll_enchantments was corrected from null to its default, true.
+[23:58:21] [Server thread/WARN]: Incorrect key lenient_bookshelves was corrected from null to its default, true.
+[23:58:21] [Server thread/WARN]: Incorrect key reroll_catalyst_cost was corrected from null to its default, 1.
+[23:58:21] [Server thread/WARN]: Incorrect key enchantment_hint was corrected from null to its default, SINGLE.
+[23:58:21] [Server thread/WARN]: Incorrect key dedicated_reroll_catalyst was corrected from null to its default, false. 
+[23:58:21] [Server thread/WARN]: Incorrect key reroll_experience_points_cost was corrected from null to its default, 5. 
+[23:58:21] [Server thread/INFO]: Loading server config for easymagic
+[23:58:21] [Server thread/INFO]: Starting minecraft server version 1.19.2
+[23:58:21] [Server thread/INFO]: Loading properties
+[23:58:21] [Server thread/INFO]: Default game type: SURVIVAL
+[23:58:21] [Server thread/INFO]: Generating keypair
+[23:58:21] [Server thread/INFO]: Starting Minecraft server on *:25565
+[23:58:21] [Server thread/INFO]: Using default channel type
+[23:58:22] [Server thread/INFO]: Preparing level "world"
+[23:58:48] [Worker-Main-5/WARN]: Empty height range: biased[-3 absolute--5 absolute inner: 1]
+[23:58:52] [Worker-Main-5/WARN]: Empty height range: biased[-10 absolute--15 absolute inner: 1]
+[23:59:16] [Worker-Main-8/WARN]: Empty height range: biased[-10 absolute--20 absolute inner: 1]
+[23:59:17] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[23:59:19] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[23:59:19] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[23:59:19] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[23:59:19] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[23:59:19] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[23:59:20] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[23:59:20] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[23:59:21] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[23:59:21] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[23:59:22] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[23:59:22] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[23:59:23] [Worker-Main-2/INFO]: Preparing spawn area: 1%
+[23:59:23] [Worker-Main-6/INFO]: Preparing spawn area: 1%
+[23:59:24] [Worker-Main-7/INFO]: Preparing spawn area: 1%
+[23:59:24] [Worker-Main-7/INFO]: Preparing spawn area: 2%
+[23:59:25] [Worker-Main-8/INFO]: Preparing spawn area: 2%
+[23:59:25] [Worker-Main-1/INFO]: Preparing spawn area: 3%
+[23:59:26] [Worker-Main-9/INFO]: Preparing spawn area: 4%
+[23:59:26] [Worker-Main-9/INFO]: Preparing spawn area: 4%
+[23:59:27] [Worker-Main-5/INFO]: Preparing spawn area: 4%
+[23:59:27] [Worker-Main-8/INFO]: Preparing spawn area: 4%
+[23:59:28] [Worker-Main-4/INFO]: Preparing spawn area: 6%
+[23:59:28] [Worker-Main-10/INFO]: Preparing spawn area: 6%
+[23:59:29] [Worker-Main-4/INFO]: Preparing spawn area: 7%
+[23:59:29] [Worker-Main-7/INFO]: Preparing spawn area: 9%
+[23:59:30] [Worker-Main-4/INFO]: Preparing spawn area: 9%
+[23:59:30] [Worker-Main-1/INFO]: Preparing spawn area: 9%
+[23:59:31] [Worker-Main-9/INFO]: Preparing spawn area: 10%
+[23:59:31] [Worker-Main-4/INFO]: Preparing spawn area: 10%
+[23:59:32] [Worker-Main-1/INFO]: Preparing spawn area: 11%
+[23:59:32] [Worker-Main-2/INFO]: Preparing spawn area: 12%
+[23:59:33] [Worker-Main-7/INFO]: Preparing spawn area: 14%
+[23:59:33] [Worker-Main-2/INFO]: Preparing spawn area: 15%
+[23:59:34] [Worker-Main-6/INFO]: Preparing spawn area: 15%
+[23:59:34] [Worker-Main-2/INFO]: Preparing spawn area: 15%
+[23:59:35] [Worker-Main-7/INFO]: Preparing spawn area: 15%
+[23:59:35] [Worker-Main-1/INFO]: Preparing spawn area: 17%
+[23:59:36] [Worker-Main-6/INFO]: Preparing spawn area: 17%
+[23:59:36] [Worker-Main-9/INFO]: Preparing spawn area: 19%
+[23:59:37] [Worker-Main-3/INFO]: Preparing spawn area: 20%
+[23:59:37] [Worker-Main-7/INFO]: Preparing spawn area: 22%
+[23:59:38] [Worker-Main-1/INFO]: Preparing spawn area: 22%
+[23:59:38] [Worker-Main-10/INFO]: Preparing spawn area: 22%
+[23:59:39] [Worker-Main-2/INFO]: Preparing spawn area: 22%
+[23:59:39] [Worker-Main-8/INFO]: Preparing spawn area: 23%
+[23:59:40] [Worker-Main-6/INFO]: Preparing spawn area: 25%
+[23:59:40] [Worker-Main-5/INFO]: Preparing spawn area: 25%
+[23:59:41] [Worker-Main-7/INFO]: Preparing spawn area: 27%
+[23:59:41] [Worker-Main-2/INFO]: Preparing spawn area: 27%
+[23:59:42] [Worker-Main-8/INFO]: Preparing spawn area: 29%
+[23:59:42] [Worker-Main-6/INFO]: Preparing spawn area: 29%
+[23:59:43] [Worker-Main-6/INFO]: Preparing spawn area: 30%
+[23:59:43] [Worker-Main-6/INFO]: Preparing spawn area: 31%
+[23:59:44] [Worker-Main-8/INFO]: Preparing spawn area: 32%
+[23:59:44] [Worker-Main-7/INFO]: Preparing spawn area: 33%
+[23:59:45] [Worker-Main-5/INFO]: Preparing spawn area: 33%
+[23:59:45] [Worker-Main-1/WARN]: Tried to access a block entity before it was created. class_2338{x=-132, y=39, z=47}
+[23:59:45] [Worker-Main-6/INFO]: Preparing spawn area: 35%
+[23:59:46] [Worker-Main-5/INFO]: Preparing spawn area: 36%
+[23:59:46] [Worker-Main-5/INFO]: Preparing spawn area: 38%
+[23:59:47] [Worker-Main-8/INFO]: Preparing spawn area: 40%
+[23:59:47] [Worker-Main-3/INFO]: Preparing spawn area: 40%
+[23:59:48] [Worker-Main-7/INFO]: Preparing spawn area: 42%
+[23:59:48] [Worker-Main-2/INFO]: Preparing spawn area: 42%
+[23:59:49] [Worker-Main-11/INFO]: Preparing spawn area: 43%
+[23:59:49] [Worker-Main-9/INFO]: Preparing spawn area: 43%
+[23:59:50] [Worker-Main-11/INFO]: Preparing spawn area: 45%
+[23:59:50] [Worker-Main-1/INFO]: Preparing spawn area: 45%
+[23:59:51] [Worker-Main-11/INFO]: Preparing spawn area: 47%
+[23:59:51] [Worker-Main-3/INFO]: Preparing spawn area: 49%
+[23:59:52] [Worker-Main-8/INFO]: Preparing spawn area: 49%
+[23:59:52] [Worker-Main-10/INFO]: Preparing spawn area: 52%
+[23:59:53] [Worker-Main-11/INFO]: Preparing spawn area: 52%
+[23:59:53] [Worker-Main-3/INFO]: Preparing spawn area: 54%
+[23:59:54] [Worker-Main-2/INFO]: Preparing spawn area: 55%
+[23:59:54] [Worker-Main-10/INFO]: Preparing spawn area: 55%
+[23:59:55] [Worker-Main-8/INFO]: Preparing spawn area: 56%
+[23:59:55] [Worker-Main-3/INFO]: Preparing spawn area: 57%
+[23:59:56] [Worker-Main-5/INFO]: Preparing spawn area: 58%
+[23:59:56] [Worker-Main-5/INFO]: Preparing spawn area: 58%
+[23:59:57] [Worker-Main-1/INFO]: Preparing spawn area: 60%
+[23:59:57] [Worker-Main-7/INFO]: Preparing spawn area: 60%
+[23:59:58] [Worker-Main-10/INFO]: Preparing spawn area: 62%
+[23:59:58] [Worker-Main-3/INFO]: Preparing spawn area: 62%
+[23:59:59] [Worker-Main-6/INFO]: Preparing spawn area: 65%
+[23:59:59] [Worker-Main-2/INFO]: Preparing spawn area: 65%
+[00:00:00] [Worker-Main-6/INFO]: Preparing spawn area: 67%
+[00:00:00] [Worker-Main-2/INFO]: Preparing spawn area: 68%
+[00:00:01] [Worker-Main-1/INFO]: Preparing spawn area: 68%
+[00:00:01] [Worker-Main-10/INFO]: Preparing spawn area: 69%
+[00:00:02] [Worker-Main-7/INFO]: Preparing spawn area: 69%
+[00:00:02] [Worker-Main-2/INFO]: Preparing spawn area: 70%
+[00:00:03] [Worker-Main-6/INFO]: Preparing spawn area: 70%
+[00:00:03] [Worker-Main-10/INFO]: Preparing spawn area: 72%
+[00:00:04] [Worker-Main-10/INFO]: Preparing spawn area: 74%
+[00:00:04] [Worker-Main-7/INFO]: Preparing spawn area: 74%
+[00:00:05] [Worker-Main-1/INFO]: Preparing spawn area: 76%
+[00:00:05] [Worker-Main-4/INFO]: Preparing spawn area: 77%
+[00:00:06] [Worker-Main-1/INFO]: Preparing spawn area: 77%
+[00:00:06] [Worker-Main-2/INFO]: Preparing spawn area: 79%
+[00:00:07] [Worker-Main-3/INFO]: Preparing spawn area: 82%
+[00:00:07] [Worker-Main-5/INFO]: Preparing spawn area: 83%
+[00:00:07] [Worker-Main-3/WARN]: Empty height range: biased[-10 absolute--15 absolute inner: 1]
+[00:00:08] [Worker-Main-9/INFO]: Preparing spawn area: 83%
+[00:00:08] [Worker-Main-7/INFO]: Preparing spawn area: 83%
+[00:00:09] [Worker-Main-6/INFO]: Preparing spawn area: 84%
+[00:00:09] [Worker-Main-3/INFO]: Preparing spawn area: 85%
+[00:00:10] [Worker-Main-5/INFO]: Preparing spawn area: 86%
+[00:00:10] [Worker-Main-4/INFO]: Preparing spawn area: 86%
+[00:00:11] [Worker-Main-9/INFO]: Preparing spawn area: 89%
+[00:00:11] [Worker-Main-5/INFO]: Preparing spawn area: 91%
+[00:00:12] [Worker-Main-7/INFO]: Preparing spawn area: 91%
+[00:00:12] [Worker-Main-1/INFO]: Preparing spawn area: 94%
+[00:00:13] [Worker-Main-4/INFO]: Preparing spawn area: 96%
+[00:00:13] [Worker-Main-11/INFO]: Preparing spawn area: 96%
+[00:00:14] [Worker-Main-6/INFO]: Preparing spawn area: 99%
+[00:00:14] [Server thread/INFO]: Time elapsed: 56558 ms
+[00:00:14] [Server thread/INFO]: Done (112.034s)! For help, type "help"
+[00:00:14] [Server thread/INFO]: Encoded Weapon Attribute registry size (with package overhead): 37992 bytes (in 4 string chunks with the size of 10000)
+[00:00:14] [Server thread/INFO]: Start loading plugin from Jade
+[00:00:14] [Server thread/INFO]: Start loading plugin from Jade
+[00:00:14] [Server thread/INFO]: Start loading plugin from Jade
+[00:00:14] [Server thread/INFO]: Start loading plugin from Waystones
+[00:00:14] [Server thread/INFO]: [STDOUT]: Encoded SpellRegistry size (with package overhead): 17698 bytes (in 2 string chunks with the size of 10000)
+[00:00:14] [Server thread/INFO]: Loaded values for 28 compatible attributes.
+[00:00:14] [Server thread/INFO]: Creating a new config file at C:\Users\admin\Desktop\mcserver\.\config\attributefix.json.
+[00:00:14] [Server thread/INFO]: Saving config file. 28 entries.
+[00:00:14] [Server thread/INFO]: Applying changes for 28 attributes.
+[00:00:14] [Server thread/INFO]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[00:00:14] [Server thread/INFO]: Loading Xaero's World Map - Stage 2/2 (Server)
+[00:01:23] [Netty Server IO #3/ERROR]: Exception occurred in netty pipeline
+io.netty.handler.codec.DecoderException: java.lang.IndexOutOfBoundsException: Index 114 out of bounds for length 1
+        at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:480) ~[netty-codec-4.1.77.Final.jar:?]
+        at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:279) ~[netty-codec-4.1.77.Final.jar:?]
+        at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:327) [netty-codec-4.1.77.Final.jar:?]
+        at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:299) [netty-codec-4.1.77.Final.jar:?]
+        at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.77.Final.jar:?]
+        at net.minecraft.class_3238.channelRead(class_3238.java:95) [server-intermediary.jar:?]
+        at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) [netty-handler-4.1.77.Final.jar:?]
+        at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:722) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:995) [netty-common-4.1.77.Final.jar:?]
+        at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.77.Final.jar:?]
+        at java.lang.Thread.run(Thread.java:833) [?:?]
+Caused by: java.lang.IndexOutOfBoundsException: Index 114 out of bounds for length 1
+        at jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64) ~[?:?]
+        at jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70) ~[?:?]
+        at jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266) ~[?:?]
+        at java.util.Objects.checkIndex(Objects.java:359) ~[?:?]
+        at java.util.ArrayList.get(ArrayList.java:427) ~[?:?]
+        at net.minecraft.class_2539$class_4532.method_22310(class_2539.java:432) ~[server-intermediary.jar:?]
+        at net.minecraft.class_2539.method_10783(class_2539.java:485) ~[server-intermediary.jar:?]
+        at net.minecraft.class_2543.decode(class_2543.java:32) ~[server-intermediary.jar:?]
+        at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:510) ~[netty-codec-4.1.77.Final.jar:?]
+        at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:449) ~[netty-codec-4.1.77.Final.jar:?]
+        ... 29 more
+[00:01:23] [Netty Server IO #4/ERROR]: Exception occurred in netty pipeline
+io.netty.handler.codec.DecoderException: java.lang.IndexOutOfBoundsException: Index 3 out of bounds for length 1
+        at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:480) ~[netty-codec-4.1.77.Final.jar:?]
+        at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:279) ~[netty-codec-4.1.77.Final.jar:?]
+        at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:327) [netty-codec-4.1.77.Final.jar:?]
+        at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:314) [netty-codec-4.1.77.Final.jar:?]
+        at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:435) [netty-codec-4.1.77.Final.jar:?]
+        at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:279) [netty-codec-4.1.77.Final.jar:?]
+        at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.77.Final.jar:?]
+        at net.minecraft.class_3238.channelRead(class_3238.java:95) [server-intermediary.jar:?]
+        at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) [netty-handler-4.1.77.Final.jar:?]
+        at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:722) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:995) [netty-common-4.1.77.Final.jar:?]
+        at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.77.Final.jar:?]
+        at java.lang.Thread.run(Thread.java:833) [?:?]
+Caused by: java.lang.IndexOutOfBoundsException: Index 3 out of bounds for length 1
+        at jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64) ~[?:?]
+        at jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70) ~[?:?]
+        at jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266) ~[?:?]
+        at java.util.Objects.checkIndex(Objects.java:359) ~[?:?]
+        at java.util.ArrayList.get(ArrayList.java:427) ~[?:?]
+        at net.minecraft.class_2539$class_4532.method_22310(class_2539.java:432) ~[server-intermediary.jar:?]
+        at net.minecraft.class_2539.method_10783(class_2539.java:485) ~[server-intermediary.jar:?]
+        at net.minecraft.class_2543.decode(class_2543.java:32) ~[server-intermediary.jar:?]
+        at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:510) ~[netty-codec-4.1.77.Final.jar:?]
+        at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:449) ~[netty-codec-4.1.77.Final.jar:?]
+        ... 31 more
+[00:01:23] [Netty Server IO #5/ERROR]: Exception occurred in netty pipeline
+io.netty.handler.codec.DecoderException: java.lang.IndexOutOfBoundsException: index: 3, length: 42 (expected: range(0, 3))
+        at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:480) ~[netty-codec-4.1.77.Final.jar:?]
+        at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:279) ~[netty-codec-4.1.77.Final.jar:?]
+        at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:327) [netty-codec-4.1.77.Final.jar:?]
+        at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:314) [netty-codec-4.1.77.Final.jar:?]
+        at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:435) [netty-codec-4.1.77.Final.jar:?]
+        at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:279) [netty-codec-4.1.77.Final.jar:?]
+        at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.77.Final.jar:?]
+        at net.minecraft.class_3238.channelRead(class_3238.java:95) [server-intermediary.jar:?]
+        at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) [netty-handler-4.1.77.Final.jar:?]
+        at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:722) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:995) [netty-common-4.1.77.Final.jar:?]
+        at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.77.Final.jar:?]
+        at java.lang.Thread.run(Thread.java:833) [?:?]
+Caused by: java.lang.IndexOutOfBoundsException: index: 3, length: 42 (expected: range(0, 3))
+        at io.netty.buffer.AbstractByteBuf.checkRangeBounds(AbstractByteBuf.java:1390) ~[netty-buffer-4.1.77.Final.jar:?]
+        at io.netty.buffer.AbstractByteBuf.checkIndex0(AbstractByteBuf.java:1397) ~[netty-buffer-4.1.77.Final.jar:?]
+        at io.netty.buffer.AbstractByteBuf.checkIndex(AbstractByteBuf.java:1384) ~[netty-buffer-4.1.77.Final.jar:?]
+        at io.netty.buffer.UnsafeByteBufUtil.getBytes(UnsafeByteBufUtil.java:481) ~[netty-buffer-4.1.77.Final.jar:?]
+        at io.netty.buffer.PooledUnsafeDirectByteBuf.getBytes(PooledUnsafeDirectByteBuf.java:130) ~[netty-buffer-4.1.77.Final.jar:?]
+        at io.netty.buffer.ByteBufUtil.decodeString(ByteBufUtil.java:1270) ~[netty-buffer-4.1.77.Final.jar:?]
+        at io.netty.buffer.AbstractByteBuf.toString(AbstractByteBuf.java:1246) ~[netty-buffer-4.1.77.Final.jar:?]
+        at net.minecraft.class_2540.toString(class_2540.java:1617) ~[server-intermediary.jar:?]
+        at net.minecraft.class_2540.method_10800(class_2540.java:602) ~[server-intermediary.jar:?]
+        at net.minecraft.class_2889.<init>(class_2889.java:28) ~[server-intermediary.jar:?]
+        at net.minecraft.class_2539$class_4532.method_22310(class_2539.java:433) ~[server-intermediary.jar:?]
+        at net.minecraft.class_2539.method_10783(class_2539.java:485) ~[server-intermediary.jar:?]
+        at net.minecraft.class_2543.decode(class_2543.java:32) ~[server-intermediary.jar:?]
+        at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:510) ~[netty-codec-4.1.77.Final.jar:?]
+        at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:449) ~[netty-codec-4.1.77.Final.jar:?]
+        ... 31 more
+[00:01:23] [Netty Server IO #6/ERROR]: Exception occurred in netty pipeline
+io.netty.handler.codec.DecoderException: java.lang.IndexOutOfBoundsException: Index 3 out of bounds for length 1
+        at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:480) ~[netty-codec-4.1.77.Final.jar:?]
+        at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:279) ~[netty-codec-4.1.77.Final.jar:?]
+        at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:327) [netty-codec-4.1.77.Final.jar:?]
+        at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:314) [netty-codec-4.1.77.Final.jar:?]
+        at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:435) [netty-codec-4.1.77.Final.jar:?]
+        at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:279) [netty-codec-4.1.77.Final.jar:?]
+        at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.77.Final.jar:?]
+        at net.minecraft.class_3238.channelRead(class_3238.java:95) [server-intermediary.jar:?]
+        at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) [netty-handler-4.1.77.Final.jar:?]
+        at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:722) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:995) [netty-common-4.1.77.Final.jar:?]
+        at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.77.Final.jar:?]
+        at java.lang.Thread.run(Thread.java:833) [?:?]
+Caused by: java.lang.IndexOutOfBoundsException: Index 3 out of bounds for length 1
+        at jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64) ~[?:?]
+        at jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70) ~[?:?]
+        at jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266) ~[?:?]
+        at java.util.Objects.checkIndex(Objects.java:359) ~[?:?]
+        at java.util.ArrayList.get(ArrayList.java:427) ~[?:?]
+        at net.minecraft.class_2539$class_4532.method_22310(class_2539.java:432) ~[server-intermediary.jar:?]
+        at net.minecraft.class_2539.method_10783(class_2539.java:485) ~[server-intermediary.jar:?]
+        at net.minecraft.class_2543.decode(class_2543.java:32) ~[server-intermediary.jar:?]
+        at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:510) ~[netty-codec-4.1.77.Final.jar:?]
+        at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:449) ~[netty-codec-4.1.77.Final.jar:?]
+        ... 31 more
+[00:01:28] [Netty Server IO #8/ERROR]: Exception occurred in netty pipeline
+io.netty.handler.codec.DecoderException: java.lang.IndexOutOfBoundsException: index: 3, length: 11 (expected: range(0, 3))
+        at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:480) ~[netty-codec-4.1.77.Final.jar:?]
+        at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:279) ~[netty-codec-4.1.77.Final.jar:?]
+        at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:327) [netty-codec-4.1.77.Final.jar:?]
+        at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:314) [netty-codec-4.1.77.Final.jar:?]
+        at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:435) [netty-codec-4.1.77.Final.jar:?]
+        at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:279) [netty-codec-4.1.77.Final.jar:?]
+        at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.77.Final.jar:?]
+        at net.minecraft.class_3238.channelRead(class_3238.java:95) [server-intermediary.jar:?]
+        at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) [netty-handler-4.1.77.Final.jar:?]
+        at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:722) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:995) [netty-common-4.1.77.Final.jar:?]
+        at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.77.Final.jar:?]
+        at java.lang.Thread.run(Thread.java:833) [?:?]
+Caused by: java.lang.IndexOutOfBoundsException: index: 3, length: 11 (expected: range(0, 3))
+        at io.netty.buffer.AbstractByteBuf.checkRangeBounds(AbstractByteBuf.java:1390) ~[netty-buffer-4.1.77.Final.jar:?]
+        at io.netty.buffer.AbstractByteBuf.checkIndex0(AbstractByteBuf.java:1397) ~[netty-buffer-4.1.77.Final.jar:?]
+        at io.netty.buffer.AbstractByteBuf.checkIndex(AbstractByteBuf.java:1384) ~[netty-buffer-4.1.77.Final.jar:?]
+        at io.netty.buffer.UnsafeByteBufUtil.getBytes(UnsafeByteBufUtil.java:481) ~[netty-buffer-4.1.77.Final.jar:?]
+        at io.netty.buffer.PooledUnsafeDirectByteBuf.getBytes(PooledUnsafeDirectByteBuf.java:130) ~[netty-buffer-4.1.77.Final.jar:?]
+        at io.netty.buffer.ByteBufUtil.decodeString(ByteBufUtil.java:1270) ~[netty-buffer-4.1.77.Final.jar:?]
+        at io.netty.buffer.AbstractByteBuf.toString(AbstractByteBuf.java:1246) ~[netty-buffer-4.1.77.Final.jar:?]
+        at net.minecraft.class_2540.toString(class_2540.java:1617) ~[server-intermediary.jar:?]
+        at net.minecraft.class_2540.method_10800(class_2540.java:602) ~[server-intermediary.jar:?]
+        at net.minecraft.class_2889.<init>(class_2889.java:28) ~[server-intermediary.jar:?]
+        at net.minecraft.class_2539$class_4532.method_22310(class_2539.java:433) ~[server-intermediary.jar:?]
+        at net.minecraft.class_2539.method_10783(class_2539.java:485) ~[server-intermediary.jar:?]
+        at net.minecraft.class_2543.decode(class_2543.java:32) ~[server-intermediary.jar:?]
+        at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:510) ~[netty-codec-4.1.77.Final.jar:?]
+        at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:449) ~[netty-codec-4.1.77.Final.jar:?]
+        ... 31 more
+[00:01:28] [Netty Server IO #9/ERROR]: Exception occurred in netty pipeline
+io.netty.handler.codec.DecoderException: java.lang.IndexOutOfBoundsException: Index 1 out of bounds for length 1
+        at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:480) ~[netty-codec-4.1.77.Final.jar:?]
+        at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:279) ~[netty-codec-4.1.77.Final.jar:?]
+        at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:327) [netty-codec-4.1.77.Final.jar:?]
+        at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:314) [netty-codec-4.1.77.Final.jar:?]
+        at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:435) [netty-codec-4.1.77.Final.jar:?]
+        at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:279) [netty-codec-4.1.77.Final.jar:?]
+        at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.77.Final.jar:?]
+        at net.minecraft.class_3238.channelRead(class_3238.java:95) [server-intermediary.jar:?]
+        at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) [netty-handler-4.1.77.Final.jar:?]
+        at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:722) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496) [netty-transport-4.1.77.Final.jar:?]
+        at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:995) [netty-common-4.1.77.Final.jar:?]
+        at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.77.Final.jar:?]
+        at java.lang.Thread.run(Thread.java:833) [?:?]
+Caused by: java.lang.IndexOutOfBoundsException: Index 1 out of bounds for length 1
+        at jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64) ~[?:?]
+        at jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70) ~[?:?]
+        at jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266) ~[?:?]
+        at java.util.Objects.checkIndex(Objects.java:359) ~[?:?]
+        at java.util.ArrayList.get(ArrayList.java:427) ~[?:?]
+        at net.minecraft.class_2539$class_4532.method_22310(class_2539.java:432) ~[server-intermediary.jar:?]
+        at net.minecraft.class_2539.method_10783(class_2539.java:485) ~[server-intermediary.jar:?]
+        at net.minecraft.class_2543.decode(class_2543.java:32) ~[server-intermediary.jar:?]
+        at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:510) ~[netty-codec-4.1.77.Final.jar:?]
+        at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:449) ~[netty-codec-4.1.77.Final.jar:?]
+        ... 31 more
